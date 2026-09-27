@@ -5,7 +5,7 @@ int main(){
     sf::CircleShape shape;
     shape.setRadius(67.f);
     shape.setPosition(sf::Vector2f(200.f, 300.f));
-    shape.setFillColor(sf::Color::Cyan);
+    shape.setFillColor(sf::Color::Red);
     while(window.isOpen()){
         sf::Event event;
         while(window.pollEvent(event)){
