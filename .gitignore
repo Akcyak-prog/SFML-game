@@ -1,0 +1,12 @@
+# сборка
+main
+*.o
+*.out
+*.exe
+
+
+.vscode/
+.idea/
+*.swp
+build/
+compile_commands.json 
