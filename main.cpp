@@ -4,7 +4,7 @@ int main(){
     sf::RenderWindow window(sf::VideoMode(800,600), "SFML Application");
     sf::CircleShape shape;
     shape.setRadius(67.f);
-    shape.setPosition(sf::Vector2f(400.f, 300.f));
+    shape.setPosition(sf::Vector2f(200.f, 300.f));
     shape.setFillColor(sf::Color::Cyan);
     while(window.isOpen()){
         sf::Event event;
