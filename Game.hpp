@@ -1,9 +1,6 @@
 #pragma once
 
 #include <SFML/Graphics.hpp>
-#include <SFML/Graphics/Font.hpp>
-#include <SFML/Graphics/Sprite.hpp>
-#include <SFML/Graphics/Text.hpp>
 
 class Game {
 public:
@@ -25,7 +22,9 @@ private:
     sf::Sprite mPlayer;
     sf::Font mFont;
     sf::Text mTextFps;
-
+    sf::Text mTextRenderedFrames;
+    
+    bool mIsResetingStats;
     bool mIsMovingUp;
     bool mIsMovingDown;
     bool mIsMovingLeft;
